@@ -1,0 +1,13 @@
+from django.shortcuts import render
+
+# Create your views here.
+def index_view(request):
+    return render(request, "portfolio/index.html")
+
+
+def disciplinas_view(request):
+    return render(request, "portfolio/disciplinas.html")
+
+
+def sobre_view(request):
+    return render(request, "portfolio/sobre.html")
